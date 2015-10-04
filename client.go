@@ -231,7 +231,7 @@ type StockBuyingResponse struct
     }
 
 }
-
+}
 
 func errorCheck(err error){
             if err!=nil{
@@ -241,4 +241,4 @@ func errorCheck(err error){
 
         }
 
-}
+
