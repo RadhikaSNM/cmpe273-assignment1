@@ -128,8 +128,6 @@ type StockBuyingResponse struct
         req, err := http.NewRequest("POST", url, bytes.NewBuffer(b))
         req.Header.Set("Content-Type", "application/json")
 
-        //Display request
-        fmt.Println(req)
 
         client := &http.Client{}
         resp, err := client.Do(req)
@@ -198,7 +196,6 @@ type StockBuyingResponse struct
 
     req1.Header.Set("Content-Type", "application/json")
 
-     fmt.Println(req1)
 
     client1 := &http.Client{}
     resp2, err8 := client1.Do(req1)
